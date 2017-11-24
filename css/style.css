@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+main {
+	background-color: #1da1f2;
+	color: white;
+	text-align: center;
+	font-family: Roboto,sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.box {
+	font-size: 12px;
+	padding: 20px 0;
+}
+a.tweet, button.trigger {
+	display: block;
+	text-align: center;
+	margin: 20px auto;
+	min-width: 40%;
+	padding: 2px;
+	border: 1px white solid;
+	color: white;
+	background-color: inherit;
+	cursor: pointer;
+	text-decoration: none;
+	transition: 0.3s;
+	border-radius: 3px;
+} 
+a.tweet:hover, button.trigger:hover {
+	color: #1da1f2;
+	background-color: white;
+}
+a.tweet {
+	display: inline-block;
+	font-size: 14px;
+}
+.quote:after, .quote:before {
+	content: ' " ';
+}
