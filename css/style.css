@@ -13,7 +13,7 @@ main {
 	font-size: 12px;
 	padding: 20px 0;
 }
-a.tweet, button.trigger {
+a.tweet, button.quot {
 	display: block;
 	text-align: center;
 	margin: 20px auto;
@@ -27,7 +27,7 @@ a.tweet, button.trigger {
 	transition: 0.3s;
 	border-radius: 3px;
 } 
-a.tweet:hover, button.trigger:hover {
+a.tweet:hover, button.quot:hover {
 	color: #1da1f2;
 	background-color: white;
 }
