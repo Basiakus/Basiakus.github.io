@@ -32,9 +32,6 @@ var tweetText = "Quote of the day - " + ' " ' + quoteText + ' " ' + " Author: " 
 };
 
 
-$(document).ready(function() {
-    getQuote();
-    $('.trigger').click(getQuote());
-});
-
+$(document).ready(getQuote());
+$('.quot').click(getQuote());
 
