@@ -1,4 +1,4 @@
-$('document').ready(function() {
+$(document).ready(function() {
 
 	var prefix = "https://cors-anywhere.herokuapp.com/";
 	var tweetLink = "https://twitter.com/intent/tweet?text=";
@@ -29,6 +29,6 @@ $('document').ready(function() {
 	    };
 	};
 
-	$(document).ready(getQuote);
+	getQuote();
 	$('.quot').click(getQuote);
 });
