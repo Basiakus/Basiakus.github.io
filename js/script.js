@@ -29,6 +29,6 @@ $('document').ready(function() {
 	    };
 	};
 
-$(document).ready(getQuote);
-$('.quot').click(getQuote);
+	$(document).ready(getQuote);
+	$('.quot').click(getQuote);
 });
